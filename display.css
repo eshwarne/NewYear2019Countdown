@@ -1,0 +1,43 @@
+#clock{
+    font-family: 'ZCOOL XiaoWei', serif;
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 80px;
+}
+
+body{
+	text-align: center;
+	background-image: url('./bg.png');
+    font-family: 'ZCOOL XiaoWei', serif;
+  font-weight: 100;
+}
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 80px;
+  margin: 40px 0px 20px;
+}
+
+
+#clock> div{
+	padding: 10px;
+	border-radius: 3px;
+	background: rgb(0, 137, 191);
+	display: inline-block;
+}
+
+#clock div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: rgb(0, 88, 129);
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
